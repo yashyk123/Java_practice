@@ -14,8 +14,8 @@ public class day_12 {
         }
     }
     public static void main(String[] args) {
-        // isAdult(14);
-        // System.out.println("after static method");
+        isAdult(14);
+        System.out.println("after static method");
 
         // try {
         //     Scanner sc = new Scanner(System.in);
@@ -71,24 +71,24 @@ public class day_12 {
         // System.out.println("after try-catch");
 
 
-        int balance = 500;
-        int withdraw = 3000;
-        try{
-        if (balance > withdraw)
-        {
-        balance = balance - withdraw;
-        System.out.println("transaction sucssesfully");
-        }
-        else
-        {
-            throw new ArithmeticException("insufficient balance");
-        }
-        }
-        catch(ArithmeticException e)
-        {
-        System.out.println(e);
-        }
-        System.out.println("rest of code");
+        // int balance = 500;
+        // int withdraw = 3000;
+        // try{
+        // if (balance > withdraw)
+        // {
+        // balance = balance - withdraw;
+        // System.out.println("transaction sucssesfully");
+        // }
+        // else
+        // {
+        //     throw new ArithmeticException("insufficient balance");
+        // }
+        // }
+        // catch(ArithmeticException e)
+        // {
+        // System.out.println(e);
+        // }
+        // System.out.println("rest of code");
 
 
     }
